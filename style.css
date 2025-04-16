@@ -1,0 +1,47 @@
+/* add color, background color, typography properties
+etc." */
+
+body {
+    font-family: sans-serif;
+}
+
+.title {
+    color: rgb(164, 108, 164);
+    padding: 16px;
+    text-align: center;
+}
+
+.recipes li {
+    list-style: none;
+    background: rgb(236, 235, 235);
+    padding: 20px;
+    margin: 8px auto;
+    width: 300px;
+    text-align: center;
+}
+
+.recipes li .smoothie a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+
+.recipes li .smoothie a:hover {
+    color: turquoise;
+}
+
+.recipes li .rice a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+
+.recipes li .rice a:hover {
+    color:  rgb(220, 153, 220);
+}
+.recipes li .water a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+
+.recipes li .water a:hover {
+    color: pink;
+}
